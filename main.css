@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  background: #000000;
+}
+.header__link {
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: none;
+}
+.header__link:hover {
+  color: #ff0000c7;
+  transition: 1s;
+  cursor: pointer;
+  transition: 1s;
+}
+.ul {
+  display: flex;
+  gap: 40px;
+}
+.navigation {
+  display: flex;
+  gap: 100px;
+  padding-top: 44px;
+}
+.input {
+  outline: none;
+  padding: 14px 0;
+}
+.form {
+  display: flex;
+}
+.section {
+  background: #000000;
+}
+.wrapper {
+  background-image: url("./images/bacgrounimg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.h1 {
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  width: 277px;
+  padding-top: 12px;
+}
+.bu {
+  width: 109px;
+  height: 55px;
+  background: #76b900;
+  color: rgb(0, 0, 0);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  margin-top: 88px;
+  border: none;
+  transition: 1s;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.bu:hover {
+  background: #6c6666;
+}
+.hero__h1 {
+  color: #000000;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+}
+.header__tek {
+  width: 178px;
+  color: #000000;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+}
+.molumot {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 40px;
+  margin-top: 12px;
+}
+.bokc {
+  width: 290px;
+  height: 302px;
+  box-shadow: 2px 16px 57px 1px #000000;
+  background: #ffffff;
+  margin-top: 70px;
+}
+.hero__p {
+  color: #000000;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  padding-top: 20px;
+}
+.flex_big {
+  margin-top: 100px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.boxes {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.tagy__molumot {
+  width: 1280px;
+  height: 500px;
+  margin-top: 39px;
+  background-color: #ffffff;
+}
+.tagy__molumot {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-top: -300px;
+}
+.molumot__tekst {
+  height: 100px;
+  background-color: #ffffff;
+}
+.header_ {
+  color: rgb(103, 185, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-top: -44px;
+  margin-right: 40px;
+}
+.p__main {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-top: 44px;
+  margin-left: 40px;
+}
+.buton {
+  width: 233px;
+  height: 62px;
+  background: rgb(118, 185, 0);
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  border: none;
+  cursor: pointer;
+  transition: 2s;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+.buton:hover {
+  background: rgb(135, 135, 135);
+}
+.flex_footer {
+  width: 1276px;
+  height: 211px;
+  background-color: #000000;
+}
+.h1__tekst {
+  color: rgb(255, 254, 254);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.flex_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
